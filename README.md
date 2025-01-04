@@ -1,12 +1,12 @@
 # Embeddings distance graph
 
 Com o objetvo de explorar os embeddings visualmente, foi proposto um código com a diminuição na dimensão dos embeddings para 2D
-utilizando PCA e T-SNE com os LLM's Distilbert e all-MiniLM-L6-v2.
+utilizando PCA e T-SNE.
 
 A diminuição de dimensionalidade perde alguns fatores importantes, por este motivo este código é apenas uma exploração destas informações.
 
-O primeiro modelo, Disilbert, tem o processo de gerar os tokens e posteriormente os embeddings. 
-Já o segundo modelo tem o processo integrado da geração de tokens e embeddings, logo temos um passo a menos
+NUm primeiro momento foi utilizado o modelo Disilbert para gerar os embeddings. Ele tem o processo de gerar os tokens e posteriormente os embeddings. 
+Já o segundo num segundo momento, foi utilizado o modelo all-MiniLM-L6-v2 onde o processo é integrado para a geração de tokens e embeddings, logo, temos um passo a menos
 na execução do código.
 
 Foi possível perceber que de acordo com as técnicas utilizadas para a redução da dimensionalidade, temos posicionamentos 
