@@ -5,7 +5,7 @@ utilizando PCA e T-SNE.
 
 A diminuição de dimensionalidade perde alguns fatores importantes, por este motivo este código é apenas uma exploração destas informações.
 
-NUm primeiro momento foi utilizado o modelo Disilbert para gerar os embeddings. Ele tem o processo de gerar os tokens e posteriormente os embeddings. 
+No primeiro momento foi utilizado o modelo Disilbert para gerar os embeddings. Ele tem o processo de gerar os tokens e posteriormente os embeddings. 
 Já o segundo num segundo momento, foi utilizado o modelo all-MiniLM-L6-v2 onde o processo é integrado para a geração de tokens e embeddings, logo, temos um passo a menos
 na execução do código.
 
