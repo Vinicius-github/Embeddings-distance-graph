@@ -1,4 +1,4 @@
-# Embeddings-distance-graph
+# Embeddings distance graph
 
 Com o objetvo de explorar os embeddings visualmente, foi proposto um código com a diminuição na dimensão dos embeddings para 2D
 utilizando PCA e T-SNE com os LLM's Distilbert e all-MiniLM-L6-v2.
