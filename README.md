@@ -1,7 +1,7 @@
 # Embeddings-distance-graph
 
-Com o objetvo de explorar os embeddings visualmente em 2D, foi feita uma diminuição na dimensão dos embeddings para 2D
-utilizando PCA e T-SNE com os LLM Distilbert e all-MiniLM-L6-v2.
+Com o objetvo de explorar os embeddings visualmente, foi proposto um código com a diminuição na dimensão dos embeddings para 2D
+utilizando PCA e T-SNE com os LLM's Distilbert e all-MiniLM-L6-v2.
 
 A diminuição de dimensionalidade perde alguns fatores importantes, por este motivo este código é apenas uma exploração destas informações.
 
